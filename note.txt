@@ -1,0 +1,7 @@
+npm i
+Dbeaver da db'yi oluştur
+.env dosyasını kendi bilgilerinle uyarla
+npx prisma migrate dev --name init
+
+update için:
+npx prisma migrate dev
